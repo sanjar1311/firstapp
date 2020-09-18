@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(245, 245, 245);
+  font-family: sans-serif;
+  overflow: hidden;
+  background-image: url("/images/fri_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -230px;
+  height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: #111;
+}
+
+li{
+  list-style: none;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.header{
+  padding-top: 30px;
+  margin-top: 20px;
+  border-top: 5px solid rgb(68, 146, 247);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(235, 231, 231);
+  opacity: 0.7;
+}
+
+.logo img{
+  transition: transform 1s ease;
+}
+
+.logo img:hover{
+  transform: rotate(360deg);
+}
+
+.nav-links{
+  display: flex;
+}
+
+.nav-links a{
+  padding: 15px 40px;
+  transition: background-color 0.5s ease;
+}
+
+.nav-links a:hover{
+  background-color: #999;
+  color: #f1f1f1;
+}
+
+.active{
+  font-weight: bold;
+  background-color: #999;
+}
+
+
+    /* SECTION-2 */
+
+.section-2 h1{
+  margin: 340px 40%;
+  font-size: 56px;
+  transition: text-shadow 1s ease;
+  color: rgb(198, 240, 47);
+}
+
+.section-2 h1:hover{
+  text-shadow: -15px -15px 13px rgb(184, 37, 128),
+              -10px -10px 8px rgb(184, 37, 128),
+              -5px -5px 3px rgb(248, 74, 181),
+                5px 5px 3px red,
+              10px 10px 8px tomato,
+              15px 15px 13px coral;
+
+  cursor: pointer;
+}
