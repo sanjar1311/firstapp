@@ -1,19 +1,23 @@
-/*
-Template Name: magExpress
-Template URI: http://www.wpfreeware.com/magexpress-fancy-style-wordpress-magazine-theme/
-Author: WpFreeware
-Author URI: http://www.wpfreeware.com
-Description: A Pro responsive bootstrap magazine template
-Version: 1.0 
-License: GPL
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-*/
 
 @font-face{ font-family:'Oswald'; font-style:normal; font-weight:400; src:local('Oswald Regular'),local('Oswald-Regular'),url("../fonts/Oswald-Regular-400.woff") format('woff')}
-body{background-color:#fff; color:#333; overflow-x:hidden !important}
-ul{padding:0; margin:0; list-style:none}
-a{text-decoration:none; color:#798992}
-a:hover{color:#646464; text-decoration:none}
+body{
+  background-color:#fff;
+  color:#333;
+  overflow-x:hidden !important;
+}
+ul{
+  padding:0;
+   margin:0;
+   list-style:none
+  }
+  
+a{
+  text-decoration:none;
+  color:#798992;
+}
+
+a:hover{color:#646464;
+  text-decoration:none}
 a:focus{outline:none; text-decoration:none}
 h2{font-family:'Oswald',sans-serif; line-height:23px}
 img{border:none}
