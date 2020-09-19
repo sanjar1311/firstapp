@@ -42,11 +42,11 @@ li{
 }
 
 .logo img{
-  transition: transform 1s ease;
+  transition: transform 5s ease;
 }
 
 .logo img:hover{
-  transform: rotate(360deg);
+  transform: rotate(7200deg);
 }
 
 .nav-links{
@@ -113,7 +113,6 @@ li{
   .section-2{
     background-image: url("/images/mobi.jpg");
     background-position: -100px -400px;
-    background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
   }
