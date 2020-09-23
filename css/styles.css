@@ -42,7 +42,7 @@ li{
 }
 
 .logo img{
-  transition: transform 5s ease;
+  transition: transform 3s ease;
 }
 
 .logo img:hover{
@@ -66,27 +66,6 @@ li{
 .active{
   font-weight: bold;
   background-color: #999;
-}
-
-
-    /* SECTION-2 */
-
-.section-2 h1{
-  margin: 340px 40%;
-  font-size: 56px;
-  transition: text-shadow 1s ease;
-  color: rgb(198, 240, 47);
-}
-
-.section-2 h1:hover{
-  text-shadow: -15px -15px 13px rgb(184, 37, 128),
-              -10px -10px 8px rgb(184, 37, 128),
-              -5px -5px 3px rgb(248, 74, 181),
-                5px 5px 3px red,
-              10px 10px 8px tomato,
-              15px 15px 13px coral;
-
-  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -117,9 +96,4 @@ li{
     width: 100%;
   }
 
-  .section-2 h1{
-    margin: 0 180px;
-    padding-top: 300px;
-    margin-left: 40%;
-  }
 }
