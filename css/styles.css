@@ -5,6 +5,28 @@
 }
 
 
+.container{
+  width: 95%;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.icon{
+  background-color: red;
+  width: 40px;
+  height: 20px;
+}
+
+.active{
+  background-color: #666;
+}
 
 
 @media (max-width: 599px) {
@@ -15,16 +37,48 @@
     background-position: 0 90px;
     background-repeat: no-repeat;
     background-color: #110f0f;
+    font-family: sans-serif;
   }
 
   .nav{
     background-color: #999;
+    padding: 20px 0;
+  }
+
+  .nav ul{
+    display: flex ;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .nav li{
+    border: 1px solid #111;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .nav a{
+    padding: 5px 10px;
+    color: aliceblue;
+    display: inline-block;
+  }
+
+  .nav a:hover{
+    background-color: #777;
   }
 
   .img{
     width: 200px;
-    padding: 35px 0;
     margin-left: 20%;
+    padding-bottom: 10px;
+  }
+
+  /* GALLERY */
+
+  .gallery img{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
   }
 
 
