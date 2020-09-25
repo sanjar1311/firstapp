@@ -69,19 +69,27 @@ ul{
     width: 100%;
   }
 
+      /* CONTACT */
+
+  .contact{
+
+  }
+
 
 
 
 
 @media (max-width: 599px) {
   body{
-    background-color: red;
+    font-family: sans-serif;
+  }
+
+  .home{
     background-image: url("/images/mobi.jpg");
     background-size: cover;
     background-position: 0 90px;
     background-repeat: no-repeat;
-    background-color: #110f0f;
-    font-family: sans-serif;
+    height: 100vh;
   }
 
   .nav{
@@ -104,14 +112,87 @@ ul{
     padding-bottom: 10px;
   }
 
-  /* GALLERY */
+  /* CONTACT */
+
+  .aside{
+    width: 95%;
+    margin: 2% auto;
+  }
+
+  .account-settings{
+    background-color: gold;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .account-theme{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .btn{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+
+  form{
+    display: inline-block;
+    box-shadow: -2px 2px 15px  #555;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 80px 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .avatar{
+    border-radius: 50%;
+    margin-top: -105px;
+    margin-bottom: 40px;
+  }
+
+  label{
+    color: #555;
+    font-weight: bold;
+  }
+
+  .input{
+    padding: 10px 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #555;
+    margin-bottom: 25px;
+    outline: 0;
+    font-size: 20px;
+  }
+
+  .input:focus{
+    border-bottom: 3px solid gold;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+  }
+
+  .btn{
+    font-size: 18px;
+  }
+
 
 
 }
 
 @media (min-width: 600px) {
   body{
-    background-color: blue;
     background-image: url("/images/fri_1.jpg");
     background-repeat: no-repeat;
     background-position: 0 -200px;
@@ -131,8 +212,14 @@ ul{
   }
 
   .gallery img{
-    width: 49%;
+    width: 100%;
     height: auto;
     margin: 10px 5px;
+  }
+
+        /* CONTACT */
+
+  .contact{
+    background-image: none;
   }
 }
