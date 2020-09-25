@@ -29,6 +29,50 @@ ul{
 }
 
 
+.nav{
+  background-color: #999;
+  padding: 20px 0;
+}
+
+.nav ul{
+  display: flex ;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav li{
+  border: 1px solid #111;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.nav a{
+  padding: 5px 10px;
+  color: aliceblue;
+  display: inline-block;
+}
+
+.nav a:hover{
+  background-color: #777;
+}
+
+  /* GALLERY */
+
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .gallery img{
+    margin-top: 10px;
+    width: 100%;
+  }
+
+
+
+
+
 @media (max-width: 599px) {
   body{
     background-color: red;
@@ -41,20 +85,7 @@ ul{
   }
 
   .nav{
-    background-color: #999;
     padding: 20px 0;
-  }
-
-  .nav ul{
-    display: flex ;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  .nav li{
-    border: 1px solid #111;
-    border-radius: 5px;
-    display: inline-block;
   }
 
   .nav a{
@@ -75,12 +106,6 @@ ul{
 
   /* GALLERY */
 
-  .gallery img{
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-  }
-
 
 }
 
@@ -88,5 +113,26 @@ ul{
   body{
     background-color: blue;
     background-image: url("/images/fri_1.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 -200px;
+    background-size: cover;
+
+  }
+
+  .img{
+    width: 200px;
+    height: auto;
+  }
+
+  .gallery{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap ;
+  }
+
+  .gallery img{
+    width: 49%;
+    height: auto;
+    margin: 10px 5px;
   }
 }
